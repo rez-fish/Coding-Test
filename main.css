@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.nav {
+  background-color: black;
+  padding: 10px 0;
+}
+
+.nav--main {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: Oswald;
+}
+
+.nav--main img {
+  height: 100%;
+}
+
+.nav--main p {
+  text-align: right;
+}
+
+.nav--main span {
+  color: #c57b1b;
+  font-weight: bold;
+  text-align: right;
+  font-size: 30px;
+}
+
+.nav--main_info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: white;
+}
+
+.nav--main_info ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: bold;
+  font-size: 19px;
+}
+
+.nav--main_info a {
+  margin-left: 40px;
+  color: white;
+  text-decoration: none;
+}
+
+header {
+  background-image: url("/img/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 900px;
+  background-position: center;
+  position: relative;
+}
+
+.header {
+  position: relative;
+}
+
+.header--image_tree {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+.header--text {
+  font-family: Oswald;
+  font-weight: bold;
+  color: white;
+}
+
+.header--text_title {
+  font-size: 60px;
+}
+
+.header--text_button {
+  padding: 10px 30px;
+  border-radius: 100px;
+  border: none;
+  font-size: 30px;
+  color: inherit;
+  font-weight: inherit;
+  background: #2c843a;
+  background: linear-gradient(309deg, #2c843a 14%, #41b93d 62%);
+}
+
+.header .postion__controller {
+  position: absolute;
+  bottom: 250px;
+}
+
+.about {
+  background-color: white;
+  margin-top: 50px;
+}
+
+.about--title {
+  text-align: center;
+  font-size: 50px;
+  font-family: Oswald;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.about--text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.renewable {
+  margin-top: 50px;
+  background-image: url("/img/forest.jpg");
+  background-position: bottom;
+  background-size: cover;
+}
+
+.renewable--text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  font-family: Oswald;
+  font-weight: bold;
+  font-size: 32px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px 0;
+}
+
+.renewable--text p {
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.contact {
+  background-color: black;
+  padding: 30px 0;
+}
+
+.contact--info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 50px;
+}
+
+.contact--info img {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.contact--number {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-family: Oswald;
+  font-size: 30px;
+  margin: 0;
+}
+
+.contact--address {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: center;
+  color: #cacaca;
+  margin: 0;
+}
+
+.contact--button {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 10px 30px;
+  border-radius: 100px;
+  border: none;
+  font-size: 20px;
+  color: white;
+  font-family: Oswald;
+  font-weight: bold;
+  background: #2c843a;
+  background: linear-gradient(309deg, #2c843a 14%, #41b93d 62%);
+}
+
+footer {
+  background-color: #c57b1b;
+  padding: 10px 0;
+}
+
+footer .footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .footer p {
+  margin: 0;
+  color: white;
+}
+/*# sourceMappingURL=main.css.map */
